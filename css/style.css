@@ -1,8 +1,8 @@
-header {
-  display: flex;
+h1 {
+  color: blue;
+  font-size: verdana;
 }
-
-.logo img {
+.logo {
   display: flex;
   align-items: flex-start;
 }
