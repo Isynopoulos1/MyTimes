@@ -1,8 +1,18 @@
 h1 {
-  color: blue;
-  font-size: verdana;
+  color: gray;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 .logo {
   display: flex;
   align-items: flex-start;
+}
+
+a {
+  color: black;
+  display: inline-block;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
