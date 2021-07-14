@@ -1,12 +1,16 @@
 h1 {
-  color: gray;
+  color: mediumaquamarine;
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
 }
-.logo {
+header h1 {
   display: flex;
-  align-items: flex-start;
+  justify-content: flex-end;
+}
+header img {
+  position: relative;
+  display: flex;
 }
 
 a {
