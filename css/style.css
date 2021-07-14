@@ -3,20 +3,26 @@ h1 {
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
+  display: inline-flex;
 }
-header h1 {
-  display: flex;
-  justify-content: flex-end;
-}
-header img {
-  position: relative;
-  display: flex;
+.linea {
+  border-left: 3px solid mediumaquamarine;
+  height: 80px;
+  margin-top: 25px;
+  position: absolute;
+  left: 10%;
+  top: 0;
 }
 
 a {
   color: black;
-  display: inline-block;
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
+
+  margin-right: 12px;
+}
+.nav-main {
+  display: inline-flex;
+  flex: 4 7;
 }
