@@ -19,10 +19,14 @@ a {
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
-
+  display: inline-flex;
   margin-right: 12px;
 }
 .nav-main {
   display: inline-flex;
-  flex: 4 7;
+  margin-left: 20%;
+}
+
+.nav-main a {
+  display: inline-flex;
 }
