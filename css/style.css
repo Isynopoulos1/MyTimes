@@ -9,6 +9,12 @@ header {
 .branding-container {
   display: flex;
   align-items: center;
+  border: 1px solid black;
+  width: 1150px;
+}
+
+header img {
+  width: 100px;
 }
 .branding-container h1 {
   margin-left: 16px;
@@ -18,7 +24,7 @@ header {
   font-size: 14px;
   font-weight: bold;
 
-  padding: 20px;
+  padding: 40px;
 }
 
 /* HEADER NAV */
@@ -29,4 +35,32 @@ a {
   font-size: 14px;
   font-weight: bold;
   margin-right: 20px;
+}
+/*CONTENT */
+
+.content {
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.seccion-1 {
+  margin-top: 30px;
+  border: 1px solid black;
+}
+.seccion-2 {
+  border: 1px solid black;
+}
+.seccion-3 {
+  border: 1px solid black;
+}
+.seccion-4 {
+  border: 1px solid black;
+}
+.seccion-5 {
+  border: 1px solid black;
+}
+
+h1 {
 }
