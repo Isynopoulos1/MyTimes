@@ -1,34 +1,32 @@
-h1 {
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+/* HEADER BRANDING */
+.branding-container {
+  display: flex;
+  align-items: center;
+}
+.branding-container h1 {
+  margin-left: 16px;
+  border-left: 1px solid mediumaquamarine;
   color: mediumaquamarine;
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
-}
-.linea {
-  border-left: 3px solid mediumaquamarine;
-  height: 80px;
-  margin-top: 25px;
-  position: absolute;
-  left: 10%;
-  top: 0;
+
+  padding: 20px;
 }
 
-.nav-main {
-  width: auto;
-  display: flex;
-  margin-top: -90px;
-  margin-left: 170px;
-  justify-content: space-between;
-}
+/* HEADER NAV */
+
 a {
   color: black;
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
   margin-right: 20px;
-}
-.linea-2 {
-  border: 1px solid black;
-  margin-left: -30px;
-  margin-top: 0px;
 }
