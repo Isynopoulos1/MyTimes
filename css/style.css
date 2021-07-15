@@ -11,6 +11,7 @@ header {
   align-items: center;
   border: 1px solid black;
   width: 1150px;
+  margin-bottom: 10px;
 }
 
 header img {
@@ -38,29 +39,27 @@ a {
 }
 /*CONTENT */
 
-.content {
+.large {
   border: 1px solid black;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
+  width: 630px;
+  margin-top: 30px;
 }
 
-.seccion-1 {
+.medium {
   margin-top: 30px;
   border: 1px solid black;
+  width: 300px;
 }
-.seccion-2 {
+.small {
+  margin-top: 30px;
   border: 1px solid black;
+  width: 240px;
 }
-.seccion-3 {
-  border: 1px solid black;
-}
-.seccion-4 {
-  border: 1px solid black;
-}
-.seccion-5 {
+.column img {
   border: 1px solid black;
 }
 
 h1 {
+  font-weight: bold;
+  font-size: 20px;
 }
