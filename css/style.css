@@ -3,7 +3,6 @@ h1 {
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-flex;
 }
 .linea {
   border-left: 3px solid mediumaquamarine;
@@ -14,19 +13,21 @@ h1 {
   top: 0;
 }
 
+.nav-main {
+  width: 100%;
+  display: flex;
+  margin-top: -90px;
+  margin-left: 170px;
+  justify-content: space-between;
+}
 a {
   color: black;
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-flex;
-  margin-right: 12px;
+  margin-right: 20px;
 }
-.nav-main {
-  display: inline-flex;
-  margin-left: 20%;
-}
-
-.nav-main a {
-  display: inline-flex;
+nav ul {
+  display: flex;
+  justify-content: space-between;
 }
