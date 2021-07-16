@@ -39,11 +39,12 @@ a {
 }
 /*CONTENT */
 .content {
-  max-width: 1150px;
   display: flex;
-  flex-direction: row;
-
-  grid-gap: 50px;
+  flex-direction: column;
+  max-width: 1150px;
+  column-gap: 3em;
+  columns: 3;
+  text-align: justify;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -64,8 +65,9 @@ a {
   border: 1px solid black;
   width: 240px;
 }
-.column img {
+.column-6 img {
   border: 1px solid black;
+  width: 240px;
 }
 
 h1 {
@@ -80,4 +82,8 @@ p:last-child {
   font-size: 14px;
 }
 
-/*COLUMNS */
+/* COLUMNS */
+.large {
+  display: flex;
+  flex-direction: column;
+}
