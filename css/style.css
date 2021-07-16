@@ -1,9 +1,13 @@
 /* HEADER */
+body {
+  margin: 8px;
+}
+
 header {
   display: flex;
+  border-bottom: 1px solid black;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
 }
 /* HEADER BRANDING */
 .branding-container {
@@ -15,20 +19,22 @@ header {
 }
 
 header img {
-  width: 100px;
+  width: 60px;
 }
 .branding-container h1 {
-  margin-left: 16px;
+  margin-left: 10px;
   border-left: 1px solid mediumaquamarine;
   color: mediumaquamarine;
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
-
-  padding: 40px;
+  padding: 20px;
 }
 
 /* HEADER NAV */
+nav {
+  display: flex;
+}
 
 a {
   color: black;
