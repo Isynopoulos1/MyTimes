@@ -43,6 +43,7 @@ a {
   font-weight: bold;
   margin-right: 20px;
 }
+
 /*CONTENT */
 .content {
   display: flex;
@@ -69,21 +70,25 @@ a {
   border: 1px solid black;
   width: 240px;
 }
-.column-6 img {
-  border: 1px solid black;
-  width: 240px;
-}
 
 h1 {
+  font-family: Georgia;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
+  color: white;
 }
 p:first-child {
-  font-size: 16px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 p:last-child {
   border: 1px solid black;
   font-size: 14px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
 
 /* GENERAL COLUMNS */
@@ -91,26 +96,27 @@ p:last-child {
 .large {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  height: 602px;
 }
 .medium {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 602px;
 }
 .small {
   display: flex;
   flex-direction: column;
-  width: 240px;
 }
 /* INDIVIDUAL COLUMNS */
 
 .column-1 h1 {
   margin-bottom: 20px;
-  border: 1px solid black;
+
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
+
 .column-1 p:last-child {
   margin-top: 20px;
 }
@@ -147,7 +153,18 @@ p:last-child {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+.column-6 img {
+  border: 1px solid black;
+  width: 240px;
+}
 .column-6 h1 {
   margin-bottom: 20px;
+}
+/* INDIVIDUAL IMAGES */
+
+.subject-1 {
+  background-image: url("../images/image5.png");
+  height: 300px;
+  align-items: center;
+  background-size: cover;
 }
