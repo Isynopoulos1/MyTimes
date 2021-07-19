@@ -51,11 +51,9 @@ a {
   column-gap: 2em;
   text-align: justify;
   margin-left: 50px;
-  border: 1px solid black;
 }
 
 .large {
-  border: 1px solid black;
   width: 630px;
   margin-top: 30px;
   display: flex;
@@ -64,14 +62,12 @@ a {
 
 .medium {
   margin-top: 30px;
-  border: 1px solid black;
   width: 300px;
   display: flex;
   flex-direction: column;
 }
 .small {
   margin-top: 30px;
-  border: 1px solid black;
   width: 240px;
   display: flex;
   flex-direction: column;
@@ -98,7 +94,6 @@ p:first-child {
   color: black;
 }
 p:last-child {
-  border: 1px solid black;
   font-size: 14px;
   background-color: WhiteSmoke;
   font-family: Verdana;
@@ -106,7 +101,7 @@ p:last-child {
   color: DimGray;
 }
 
-/* ARTICLES */
+/* ARTICLE 1 */
 
 .article-1 .main-text {
   text-align: left;
@@ -124,10 +119,16 @@ p:last-child {
 .large .flexible-articles {
   display: flex;
   flex-direction: row;
+  grid-gap: 20px;
 }
+
+/* ARTICLE 2 */
 
 .article-2 h1 {
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+.article-2 h2 {
   margin-bottom: 20px;
 }
 
@@ -139,17 +140,26 @@ p:last-child {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+/* ARTICLE 3 */
+
 .article-3 h1 {
   margin-bottom: 20px;
 }
 
+.article-3 h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .article-3 p:last-child {
   margin-top: 20px;
 }
 
+/* ARTICLE 4 */
+
 .article-3 .empty-section-3 {
   height: 20px;
-  margin-top: 20px;
+  margin-top: 32px;
 }
 
 .article-4 {
@@ -166,8 +176,10 @@ p:last-child {
 .article-4 p:last-child {
   margin-top: 70px;
 }
+
+/* ARTICLE 5 */
+
 .article-5 .empty-section {
-  border: 1px solid black;
   height: 20px;
   margin-top: 20px;
 }
@@ -177,8 +189,10 @@ p:last-child {
 .article-5 p {
   margin-bottom: 20px;
 }
+
+/* ARTICLE 6 */
+
 .article-6 img {
-  border: 1px solid black;
   width: 240px;
 }
 .article-6 h1 {
@@ -197,7 +211,6 @@ p:last-child {
 .image-2 {
   margin-top: 20px;
   background-image: url("../images/image2.png");
-  border: 1px solid black;
   background-repeat: repeat-x;
   background-position: right;
   background-size: contain;
