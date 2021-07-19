@@ -199,6 +199,23 @@ p:last-child {
   margin-bottom: 20px;
 }
 
+.news-bites {
+  border-bottom: 1px solid DimGray;
+}
+
+.news-bites ul {
+  height: 300px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+.news-bites h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* IMAGES */
 
 .image-1 {
@@ -230,4 +247,40 @@ p:last-child {
   background-size: contain;
   background-repeat: repeat-x;
   margin-bottom: 20px;
+}
+
+/*NEW BITES LINES*/
+
+.lines {
+  margin-top: 20px;
+}
+
+.line-1 {
+  border-bottom: 1px solid DimGray;
+  height: 30px;
+  padding-top: 20px;
+}
+.line-2 {
+  margin-top: 20px;
+  border-bottom: 1px solid DimGray;
+  height: 30px;
+}
+.line-3 {
+  margin-top: 20px;
+  border-bottom: 1px solid DimGray;
+  height: 30px;
+}
+.line-4 {
+  margin-top: 20px;
+  border-bottom: 1px solid DimGray;
+  height: 30px;
+}
+.line-5 {
+  margin-top: 20px;
+  border-bottom: 1px solid DimGray;
+  height: 30px;
+}
+.line-6 {
+  margin-top: 20px;
+  height: 30px;
 }
