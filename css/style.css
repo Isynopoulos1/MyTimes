@@ -45,7 +45,7 @@ a {
 }
 
 /*COLUMNS */
-.content {
+.columns {
   display: flex;
   flex-wrap: wrap;
   column-gap: 2em;
@@ -121,6 +121,10 @@ p:last-child {
 .article-1 p:last-child {
   margin-top: 20px;
 }
+.large .flexible-articles {
+  display: flex;
+  flex-direction: row;
+}
 
 .article-2 h1 {
   margin-top: 20px;
@@ -144,7 +148,6 @@ p:last-child {
 }
 
 .article-3 .empty-section-3 {
-  border: 1px solid black;
   height: 20px;
   margin-top: 20px;
 }
@@ -203,7 +206,7 @@ p:last-child {
 
 .image-3 {
   background-image: url("../images/image3.png");
-  height: 400px;
+  height: 302px;
   background-size: contain;
   background-repeat: repeat-x;
 }
