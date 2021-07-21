@@ -1,8 +1,7 @@
-/* HEADER */
 body {
   margin: 8px;
 }
-
+/* HEADER */
 header {
   display: flex;
   border-bottom: 1px solid black;
@@ -32,7 +31,7 @@ header img {
 }
 
 /* HEADER NAV */
-nav {
+header nav {
   display: flex;
   margin-right: 120px;
 }
@@ -200,17 +199,6 @@ p:last-child {
   margin-bottom: 20px;
 }
 
-.news-bites {
-  border-bottom: 1px solid DimGray;
-}
-
-.news-bites ul {
-  height: 300px;
-  background-color: WhiteSmoke;
-  font-family: Verdana;
-  font-size: 12px;
-  color: DimGray;
-}
 .news-bites h2 {
   font-size: 16px;
   font-weight: bold;
@@ -251,54 +239,38 @@ p:last-child {
 }
 
 /*NEW BITES LINES*/
-
 .lines {
+  height: 300px;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
   margin-top: 20px;
 }
 
-.line-1 {
+.lines li {
+  background-color: WhiteSmoke;
   border-bottom: 1px solid DimGray;
   height: 30px;
   padding-top: 20px;
 }
-.line-2 {
-  margin-top: 20px;
-  border-bottom: 1px solid DimGray;
-  height: 30px;
-}
-.line-3 {
-  margin-top: 20px;
-  border-bottom: 1px solid DimGray;
-  height: 30px;
-}
-.line-4 {
-  margin-top: 20px;
-  border-bottom: 1px solid DimGray;
-  height: 30px;
-}
-.line-5 {
-  margin-top: 20px;
-  border-bottom: 1px solid DimGray;
-  height: 30px;
-}
-.line-6 {
-  margin-top: 20px;
-  height: 30px;
-}
 
 /*FOOTER*/
-
+footer {
+  background-color: MediumAquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+}
 .footer-container {
   display: flex;
+  margin-bottom: 50px;
   justify-content: center;
   align-items: center;
-  background-color: MediumAquamarine;
-
-  height: 200px;
 }
 
 .footer-container h1 {
-  margin-left: 100px;
   text-align: center;
   font-family: Georgia;
   font-size: 16px;
@@ -314,9 +286,7 @@ footer nav {
 }
 
 footer .footer-copyright {
-  margin-top: -40px;
   text-align: center;
-  background-color: MediumAquamarine;
   font-family: Verdana;
   font-size: 10px;
   font-weight: normal;
